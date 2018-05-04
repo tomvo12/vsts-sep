@@ -74,25 +74,6 @@ namespace CreateServiceEndpoint
 
             var sepId = Guid.NewGuid();
 
-            //{
-            //    "data": { },
-            //    "id": "5b13f28b-e36f-45c9-8c42-4e6ddea0ccd9",
-            //    "name": "AppCenter",
-            //    "type": "vsmobilecenter",
-            //    "url": "https://api.mobile.azure.com/v0.1",
-            //    "createdBy": {
-            //                "id": "0bf97601-0324-4671-a9e7-6a6293b675d7",
-            //        "uniqueName": "TSTX_a_VOSSTHO@corptestp.onmicrosoft.com",
-            //        "imageUrl": "https://daimler-dev.visualstudio.com/_api/_common/identityImage?id=0bf97601-0324-4671-a9e7-6a6293b675d7",
-            //        "displayName": "Tom Voss (CORPTESTP)",
-            //        "url": "https://app.vssps.visualstudio.com/Acd98cb19-4d7e-48e4-946b-909ee69d1e16/_apis/Identities/0bf97601-0324-4671-a9e7-6a6293b675d7"
-            //    },
-            //    "authorization": {
-            //                "scheme": "Token"
-            //    },
-            //    "isReady": true
-            //}
-
             var data = new
             {
                 id = sepId,
